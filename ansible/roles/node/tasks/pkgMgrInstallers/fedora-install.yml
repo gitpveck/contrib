@@ -3,6 +3,6 @@
   args:
     name: kubernetes-node
     state: latest
-    enablerepo: "updates-testing"
+#    enablerepo: "updates-testing"
   notify:
     - restart daemons
